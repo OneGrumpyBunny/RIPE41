@@ -1,0 +1,6 @@
+
+application.cfm
+cfm/act_login.cfm
+cfm/dumpIdea.cfm
+cfm/dumpReg.cfm
+*.cfm

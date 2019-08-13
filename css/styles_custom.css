@@ -1,0 +1,161 @@
+.section1 {
+    min-height: 300px;
+        height: 300px;
+    background: #fff url(../images/section1_back2.jpg) no-repeat center center;
+    width: 100%;
+    min-width: 100%;
+    background-size: cover;
+    /*opacity: .7;*/
+}
+
+.header-text {
+    background: rgba(255, 255, 255, 0.23);
+    width: 100%;
+    min-width: 100%;
+    margin: 60px 0;
+    padding: 30px;
+}
+
+.header-text h4 {
+    line-height: 2.2rem;
+}
+
+.travel {
+    min-height: 335px;
+}
+/*  SB EDITS   */
+#header {
+	padding: 0;
+}
+#travel, #location, #signUp, #downloads, #ideas {
+	padding: 3em 0;
+}
+#location .heading, #ideas .heading, #downloads .heading {
+	margin-bottom: 2em;
+}
+#signUp .heading, #travel .heading {
+	margin-bottom: 1em;
+}
+.heading h2::after {
+	display: none;
+}
+#offcanvas {
+	/*width: 300px;*/
+}
+#offcanvas ul li {
+	margin: 0 0 8px 0;
+}
+#offcanvas a {
+	color: rgba(255, 255, 255, 1.0);
+	font-size: 16px;
+	line-height: 20px;
+}
+/* end SB EDITS   */
+/*.download:hover svg { 
+    display:block;
+} */
+
+#downloads .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6081b6;
+}
+.download {
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 300px;
+    justify-content: flex-end;
+    align-items: center;
+    color: #ffffff;
+    flex-direction: column;
+        width: 345px;
+        height: 254px;
+}
+
+@media screen and (max-width:768px) {
+    .download {
+        background-size: contain;
+        height: 254px;
+        justify-content: flex-end;
+        align-items: center;
+        color: #ffffff;
+        flex-direction: column;
+    }
+
+    #downloads .icons {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #downloads .middleitem {
+      border: 1px solid #9cb8e4;
+      border-width: 0 1px;
+    }
+}
+
+.smArr {
+    height: 35px;
+    width: 35px;
+    padding-top: 10px;
+}
+iframe {
+    width: 100%;
+    max-width: 487px;
+}
+.locationHotel {
+    background: #ffffffe8;
+    width: 100%;
+    max-width: 487px;
+    height: auto;
+    padding: 33px;
+    margin: 0 auto;
+}
+
+form {
+    max-width: 100%;
+    margin: 0 auto; 
+    text-align: left;
+    background: #ffff;
+    padding: 30px;
+}
+
+.form-control {
+    font-weight: 600;
+    color: #2D6CDF;
+}
+.regReceived, .ideaReceived {
+    display:none;
+}
+
+.regReceived h3, .ideaReceived h3, .message {
+    text-align:center;
+    color:#d21616;
+    
+}
+.ideaReceived p {
+    cursor:pointer;
+    color:#2D6CDF;
+    text-align:center;
+}
+
+@media screen and (min-width: 992px) {
+    iframe {
+        width:487px;
+    }
+
+    .locationHotel {
+        width: 487px;
+        height: 450px;
+        padding: 67px;
+    }
+
+    form {
+        max-width: 80%;
+    }
+}
